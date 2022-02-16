@@ -30,7 +30,7 @@ type ExporterConfig []struct {
 	path     string
 }
 
-const ExporterExporterPort = "9999"
+const ExporterExporterPort = "623"
 
 var exporterConfig = ExporterConfig{
 	{ // special exporter_exporter we scan this first to know if we can skip the other ports.
